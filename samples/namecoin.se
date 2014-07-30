@@ -1,8 +1,8 @@
-
+//serpent
 // The sample demonstrates how you
 // can simply create a program running
 // on top of chain and saving values for
-// futre use
+// future use
 if !(contract.storage[msg.data[0]]):
     contract.storage[msg.data[0]] = msg.data[1]
     return(1)
